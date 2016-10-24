@@ -14,24 +14,6 @@
         = link_to "New Workout", new_workout_path, class:"navbar navbar-link"
   .container
     = yield
-  %nav{"aria-label" => "Page navigation"}
-    .container
-      %ul.pagination
-        %li
-          %a{"aria-label" => "Previous", :href => "#"}
-            %span{"aria-hidden" => "true"} «
-        %li
-          = link_to "1", new_workout_path
-        %li
-          %a{:href => "#"} 2
-        %li
-          %a{:href => "#"} 3
-        %li
-          %a{:href => "#"} 4
-        %li
-          %a{:href => "#"} 5
-        %li
-          %a{"aria-label" => "Next", :href => "#"}
-            %span{"aria-hidden" => "true"} »
+
 
 
